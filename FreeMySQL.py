@@ -19,7 +19,6 @@ def get_connection():
         )
     )
 
-£
 sql = '''
 
 SELECT * FROM guests
