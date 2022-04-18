@@ -24,7 +24,7 @@ sql = '''
 
 SELECT * FROM guests
 WHERE id<=50
-OR id >=3;
+AND id >=3;
 
 '''
 
