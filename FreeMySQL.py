@@ -22,8 +22,7 @@ def get_connection():
 
 sql = '''
 
-select * from guests
-WHERE id=1;
+SELECT * FROM guests;
 
 '''
 
