@@ -23,7 +23,8 @@ def get_connection():
 sql = '''
 
 SELECT * FROM guests
-WHERE id=5;
+WHERE id<=50
+OR id >=3;
 
 '''
 
