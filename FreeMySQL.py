@@ -27,6 +27,5 @@ AND id >=3;
 
 '''
 
-#add your SQL heare
 df = pd.read_sql(sql, get_connection())
 print (df)
